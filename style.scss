@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.container{
+    margin-top: 77px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+.nav-link {
+    color: #7D7D7D;
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-size: 14px;
+    transition: color 0.4s;
+
+    &:hover{
+        color: #03A9F4;
+    }
+
+    &:active{
+        color: #03A9F4;
+    }
+}
+.main {
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 500px); 
+    margin-top: 92px;
+    justify-content: center;
+    margin-left: 100px;
+    
+    &-card{
+        margin-bottom: 130px;
+        
+        &-img{}
+        &-style{
+            font-family: Ubuntu;
+            font-weight: 300;
+            color: #B4AD9E;
+            margin-top: 62px;
+            font-size: 14px;
+        }
+        &-title{
+            color: #626262;
+            font-family: Playfair Display;
+            font-weight: 400;
+            font-size: 30px;
+            margin-top: 32px;
+        }
+        &-desc{
+            font-family: Playfair Display;
+            font-size: 14px;
+            color: #626262;
+            margin-top: 40px;
+        }
+    }
+}
+.lode{
+    background: none;
+    border: 1px solid #626262;
+    width: 150px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: -90px;
+    color: #626262;
+    font-family: Playfair Display;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.lode:hover{
+    background: #626262;
+    color: white;
+}
